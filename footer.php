@@ -6,7 +6,7 @@
         <ul>
           <?php wp_footer_menu() ?>
         </ul>
-        <p>Copyrights 2022. All Right Reserved</p>
+        <p>© Copyrights 2022. All Right Reserved</p>
       </div>
     </footer>
     <script src="./script.js"></script>

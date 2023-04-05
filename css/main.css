@@ -234,6 +234,7 @@
   .card__md__content a {
     opacity: 0.8;
     font-weight: bold;
+    color: red;
   }
   
   .feature {
@@ -307,6 +308,7 @@
     opacity: 0.8;
     font-weight: bold;
     font-size: 1.4rem;
+    color: red;
   }
   
   .card__mini {
@@ -322,6 +324,7 @@
     font-size: 1.4rem;
     opacity: 0.8;
     font-weight: bold;
+    color: red;
   }
   
   .footer {
@@ -547,3 +550,63 @@
     content: "\f185";
   }
   
+
+  .maincontent{
+    background-image: url(https://images3.alphacoders.com/270/27025.png);
+    padding:5rem 0;
+  }
+
+  .theContent{
+    padding: 5rem 0;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+  }
+
+  .theContent h1{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 1rem;
+  }
+
+  .theContent h1 span{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+  }
+
+  .theContent small{
+    color: white;
+    font-size: 2rem;
+
+  }
+
+  .container_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 3rem 0;
+    gap: 5rem;
+  }
+
+
+  .container_content p{
+    color: white; 
+    margin-top: 3rem;
+  }
+
+  .img img{
+    width: 50rem;
+    height: 50rem;
+  }
+
+  .container_text{
+   
+    font-size: 2rem;
+    color: white;
+  }
+
+  .container_text p{
+    margin: 2rem 0;
+    text-align: justify;
+  }
+

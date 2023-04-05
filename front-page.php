@@ -37,14 +37,14 @@
                   <p>
                     <?php echo get_the_excerpt()?>
                   </p>
-                  <a href="#">Read More...</a>
+                  <a href="<?php echo the_permalink(); ?>">Read More...</a>
                 </div>
               </article>
 
             
               <?php 
                 
-            endwhile;
+               endwhile;
                 else:
                     echo "no available post";
                 endif;
@@ -76,7 +76,7 @@
                 <div class="card__sm__content">
                   <small> <?php echo get_the_date('M-d-Y'); ?></small>
                   <h3><?php the_title();?></h3>
-                  <a href="#">Read More...</a>
+                  <a href="<?php echo the_permalink(); ?>">Read More...</a>
                 </div>
               </div>
 
@@ -153,7 +153,7 @@
                 sequi adipisci accusamus dolorem.
                 
               </p>
-              <a href="#">Read More...</a>
+              <a href="<?php echo the_permalink(); ?>">Read More...</a>
             </div>
           </div>
 
@@ -223,7 +223,7 @@
                 <p>
                 <?php echo get_the_excerpt()?>
                 </p>
-                <a href="#">Read More...</a>
+                <a href="<?php echo the_permalink(); ?>">Read More...</a>
               </div>
             </article>
 
@@ -243,7 +243,7 @@
 
             $args = array(
                 'post_type' => 'featurePost',
-                'posts_per_page' => 2,
+                'posts_per_page' => 6,
                 'offset' => 3,
 
             );
@@ -258,7 +258,7 @@
               <h4>
               <?php the_title();?>
               </h4>
-              <a href="#">Read More ...</a>
+              <a href="<?php echo the_permalink(); ?>">Read More ...</a>
             </div>
             <?php 
                 
